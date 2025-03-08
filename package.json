@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/server.ts"
+  },
+  "dependencies": {
+    "@elysiajs/graphql-yoga": "^1.2.0",
+    "@prisma/client": "^6.4.1",
+    "elysia": "latest",
+    "graphql": "^16.10.0",
+    "graphql-yoga": "^5.13.1",
+    "pg": "^8.13.3",
+    "postgres": "^3.4.5",
+    "prisma": "^6.4.1"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.11.11",
+    "bun-types": "latest",
+    "tsx": "^4.19.3"
+  },
+  "module": "src/index.js"
+}
