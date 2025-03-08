@@ -20,6 +20,6 @@
 ## **📌 2️⃣ Installation**
 ### **⚡ Clone and Install Dependencies**
 ```sh
-git clone https://github.com/your-repo.git
-cd your-repo
+git clone https://github.com/ujnim/elysia-hexagonal-starter.git
+cd elysia-hexagonal-starter
 bun install
